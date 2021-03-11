@@ -21,6 +21,8 @@ function showsequencer()
     margin = renoise.ViewBuilder.DEFAULT_CONTROL_MARGIN
   }
 
+  renoise.song().selected_track.visible_note_columns = #channels
+
   for channel = 1, #channels do
     local row = vb:row {}
     row:add_child(vb:text {
@@ -29,8 +31,12 @@ function showsequencer()
     })
     for step = 1, STEPS do
       local step4 = (step-1) % 4 == 0
-      -- not sure how to get this
-      local stepon = false
+      local stepon =
+
+      -- this dowsn't work, but it'll be simlar to get note in current position
+      -- renoise.song().selected_phrase:line(step * 4).note_column(channel)
+
+
 
       local color
       if stepon then

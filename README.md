@@ -1,6 +1,6 @@
 # simple step
 
-![screen][screen.png]
+![screen](screen.png)
 
 This is a dumb & simple frontend for quickly adding beats to a pattern. I wanted a really fast & simple way to enter patterns from the [Pocket Operations](https://shittyrecording.studio/) book, which I highly recommend.
 

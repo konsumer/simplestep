@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RenoiseScriptingTool doc_version="0">
+  <ApiVersion>6</ApiVersion>
+  <AutoUpgraded>true</AutoUpgraded>
+  <Id>com.konsumer.SimpleStep</Id>
+  <Version>1.0</Version>
+  <Author>konsumer [konsumer@jetboystudio.com]</Author>
+  <Name>Simple Step</Name>
+  <Category>Sequencer</Category>
+  <Description>Very simple step-sequencer for laying drum tracks</Description>
+  <Homepage>http://github.com/konsumer/simplestep</Homepage>
+  <Icon></Icon>
+  <Platform>Windows, Mac, Linux</Platform>
+</RenoiseScriptingTool>
